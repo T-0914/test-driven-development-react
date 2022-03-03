@@ -1,14 +1,14 @@
 module.exports = {
-	plugins: ['jest'],
+  plugins: ['jest'],
   extends: ['eslint:recommended', 'plugin:jest/recommended'],
-	parserOptions: {
-		ecmaVersion: 6,
-	},
-	env: {
+  parserOptions: {
+    ecmaVersion: 6,
+  },
+  env: {
     node: true,
   },
-	rules: {
+  rules: {
     quotes: ['error', 'single', { avoidEscape: true }],
-		'comma-dangle': ['error', 'always-multiline'], 
+    'comma-dangle': ['error', 'always-multiline'],
   },
 };

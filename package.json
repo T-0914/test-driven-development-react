@@ -5,7 +5,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint .",
+    "format": "prettier --config .prettierrc **/*.js --write"
   },
   "keywords": [],
   "author": "",
